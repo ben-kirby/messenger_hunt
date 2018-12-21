@@ -257,9 +257,9 @@ function options(myCoords){
   var mapOptions = {
     center: myCoords,
     zoom: 14,
+    streetViewControl: false,
     mapTypeControlOptions: {
-      mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
-              'styled_map']
+      mapTypeIds: ['styled_map']
     }
   };
   return mapOptions
