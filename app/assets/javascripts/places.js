@@ -258,6 +258,7 @@ function options(myCoords){
     center: myCoords,
     zoom: 14,
     streetViewControl: false,
+    fullscreenControl: false,
     mapTypeControlOptions: {
       mapTypeIds: ['styled_map']
     }
